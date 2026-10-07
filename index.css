@@ -26,3 +26,13 @@ thead {
   border-bottom: 2px solid black;
   text-transform: uppercase;
 }
+
+th,
+td {
+  border: 1px dashed #aaa;
+  padding: 0.5ch;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f0f0f0;
+}
